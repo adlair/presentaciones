@@ -54,7 +54,7 @@ DATA = [
 MINUTES = [2,2,2,3,1,2,2,2,2,2,2,3,2,2,2,2,2,1,2,2,3,2,1,1,1,3]
 assert len(DATA) == 26 and len(MINUTES) == 26
 # Ajuste explícito a 50 minutos: la suma de tiempos se recalcula abajo.
-MINUTES = [1,2,2,3,2,2,2,2,2,2,2,3,2,2,2,2,2,1,1,2,3,2,1,1,1,2]
+MINUTES = [1,2,2,3,2,2,2,2,2,2,2,3,2,2,2,2,2,1,1,2,3,2,1,1,1,3]
 assert sum(MINUTES) == 50, sum(MINUTES)
 
 def box(slide, x, y, w, h, text, size, color=WHITE, bold=False, spacing=1.05):
